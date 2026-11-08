@@ -3,6 +3,8 @@
 O2, freediving öncesinde nefes tutma içermeyen kuru kondisyon, mobilite, hafif aerobik aktivite ve toparlanma kayıtlarını tutan statik bir web uygulamasıdır.
 
 ## Özellikler
+- Aktivite zamanlayıcısı: 5–60 dakika seçimi, başlatma/erken bitirme ve otomatik aktivite kaydı
+- Zamanlayıcı yalnızca hareket, kondisyon ve toparlanma aktiviteleri içindir; nefes tutma sayacı veya apnea antrenmanı değildir.
 - Aktivite modu seçimi: mobilite/esneklik, kuru kondisyon/kuvvet, hafif aerobik aktivite, toparlanma
 - Tamamlanan aktivite süresi ve algılanan efor kaydı
 - Son 7 gün günlük aktivite dakikaları grafiği
