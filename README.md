@@ -1,15 +1,22 @@
-# O2 — Nefes egzersizleri
+# O2 — Freediving Training
 
-Higer.tech üzerinde `/o2/` adresinden sunulan bağımsız Türkçe nefes egzersizi uygulaması.
-
-## Çalıştırma
-Statik HTML/CSS/JavaScript; PHP veya derleme adımı gerektirmez. Web kökü `public` ise `https://higer.tech/o2/` adresinden açılır.
+O2, serbest dalış yapanların dalış hazırlığını, antrenman kayıtlarını ve kişisel performans gelişimini takip etmeleri için hazırlanmış statik bir web uygulamasıdır.
 
 ## Özellikler
-- Nefes alıp tutma, nefes verip bekleme, doğal nefes molası ve kutu nefesi.
-- Animasyonlu zaman çizgisi ve tur takibi.
-- Yerel geçmiş, istatistikler ve grafik.
-- Kayıtlar yalnızca tarayıcının localStorage alanında tutulur; sunucuya gönderilmez.
+
+- Kişisel performans özeti ve en iyi kayıt görünümü
+- Gerçekleşmiş antrenmanların sonradan kaydedildiği antrenman günlüğü
+- Son kayıtlar için basit gelişim grafiği
+- Dalış öncesi güvenlik kontrol listesi
+- Freediving eğitimi, fizyoloji ve güvenlik hakkında temel bilgilendirme
+- Kayıtlar tarayıcının `localStorage` alanında tutulur; sunucuya gönderilmez.
 
 ## Güvenlik
-Nefes tutma baş dönmesi/bayılma riski taşır. Suda, araç kullanırken veya ayaktayken kullanılmamalıdır. Rahatsızlıkta hemen bırakılmalıdır. Tıbbi tavsiye değildir.
+
+Bu uygulama bir nefes tutma sayacı, antrenman reçetesi veya tıbbi cihaz değildir. Süre hedefleri, otomatik nefes tutma seansları ya da zorlayıcı tablolar sunmaz.
+
+Nefes tutma ve serbest dalış ciddi bayılma ve boğulma riski taşır. Suda asla tek başına çalışılmamalı; tüm su içi faaliyetler uygun eğitim, yetkin buddy/gözetmen ve kabul görmüş güvenlik prosedürleriyle yapılmalıdır. Hiperventilasyon yapılmamalı, hiçbir performans hedefi güvenliğin önüne geçmemelidir. Eğitimli bir freediving eğitmeninin rehberliğini alın.
+
+## Yayın
+
+Proje GitHub Pages için statik HTML olarak hazırlanmıştır. `main` dalındaki `index.html` dosyası doğrudan yayınlanır. Özel alan adı `CNAME` dosyasında tanımlıdır.
