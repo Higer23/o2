@@ -1,22 +1,22 @@
-# O2 — Freediving Training
+# O2 — Kuru Ortam Nefes Tutma Günlüğü
 
-O2, serbest dalış yapanların tamamlanmış antrenman ölçümlerini, dalış hazırlığını ve kişisel kayıt geçmişini takip etmeleri için hazırlanmış statik bir web uygulamasıdır.
+O2, serbest dalış hazırlığı kapsamında **kuru ortamda ve yalnızca uyanıkken tamamlanmış** nefes tutma kayıtlarını sonradan arşivlemek için hazırlanmış statik bir web uygulamasıdır.
 
 ## Özellikler
 
-- Nefes aldıktan sonra tutma ve nefes verdikten sonra tutma ölçümlerini ayrı kaydetme
-- Kişisel kayıt özeti ve iki ölçüm türü için ayrı en iyi sonuç
-- Son ölçümlerin gelişim grafiği ve seans geçmişi
-- Dalış öncesi güvenlik kontrol listesi
-- Freediving eğitimi, fizyoloji ve güvenlik bilgilendirmeleri
+- Nefes aldıktan ve nefes verdikten sonraki tamamlanmış ölçümleri ayrı kaydetme
+- Kuru ortam kayıtları için ayrı kişisel istatistik ve gelişim grafiği
+- Nefes alma dürtüsünü yalnızca öznel bir not olarak kaydetme (CO₂ ölçümü değildir)
+- Ortam, seans değerlendirmesi ve not geçmişi
+- Kuru ortam güvenlik hatırlatmaları ve freediving eğitim bilgileri
 - Kayıtlar tarayıcının `localStorage` alanında tutulur; sunucuya gönderilmez.
-- Önceki kayıtlar yeni kayıt formatına taşınarak korunur.
+- Önceki kayıtlar korunur; eski kayıtlar kuru ortam olarak sınıflandırılmaz.
 
 ## Güvenlik
 
-O2 bir nefes tutma zamanlayıcısı, antrenman reçetesi, meydan okuma veya tıbbi cihaz değildir. Ölçüm alanları yalnızca tamamlanmış seansların sonuçlarını sonradan kaydetmek içindir; uygulama süre hedefi, nefes protokolü veya otomatik seans başlatma sunmaz.
+Kuru ortamda nefes tutma da hipoksik bayılma, düşme ve yaralanma riski taşır. Uyurken, uykuya dalarken, yatakta uyku sırasında, ayakta, araç kullanırken, banyoda veya suda tek başına nefes tutma denemesi yapılmamalıdır. Maksimum süre denemeleri, süre hedefleri, CO₂ tabloları veya hiperventilasyon kullanılmamalıdır. Baş dönmesi, görme değişikliği, uyuşma veya sersemlikte hemen bırakıp yardım isteyin. Kuru ortam çalışmaları için de nitelikli freediving eğitmeninden kişisel güvenlik değerlendirmesi alın. Su içi çalışmalar uygun eğitim ve yetkin buddy gözetimi gerektirir.
 
-Nefes tutma; hipoksik bayılma ve boğulma riski taşır. Suda asla tek başına çalışılmamalı; su içi faaliyetler uygun eğitim, yetkin buddy/gözetmen ve kabul görmüş güvenlik prosedürleriyle yapılmalıdır. Hiperventilasyon yapılmamalı, hiçbir performans hedefi güvenliğin önüne geçmemelidir. Yetkin bir freediving eğitmeninden uygulamalı eğitim alın.
+Uygulama bir nefes tutma zamanlayıcısı, antrenman reçetesi, CO₂ ölçüm cihazı veya tıbbi cihaz değildir. Nefes alma dürtüsü alanı yalnızca sonradan girilen öznel bir nottur.
 
 ## Yayın
 
