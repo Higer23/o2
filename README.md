@@ -1,23 +1,19 @@
-# O2 — Kuru Ortam Nefes Tutma Günlüğü
+# O2 — Dry Apnea Lab
 
-O2, serbest dalış hazırlığı kapsamında **kuru ortamda ve yalnızca uyanıkken tamamlanmış** nefes tutma kayıtlarını sonradan arşivlemek için hazırlanmış statik bir web uygulamasıdır.
+O2, kuru ortam freediving fizyolojisini öğrenmek, güvenlik farkındalığını geliştirmek ve eğitim oturumlarını kaydetmek için hazırlanmış etkileşimli statik bir web uygulamasıdır.
 
 ## Özellikler
+- Etkileşimli CO₂, O₂, hipoksi ve güvenli eğitim modülleri
+- Kuru ortam için güvenlik kontrol listesi
+- Tamamlanan eğitim modüllerinin işaretlenmesi
+- Eğitim oturumu notları ve geçmişi
+- Önceki sürümde kaydedilmiş kuru ortam ölçümlerinin kişisel panelde görüntülenmesi
+- Veriler tarayıcının localStorage alanında tutulur; sunucuya gönderilmez.
 
-- Nefes aldıktan ve nefes verdikten sonraki tamamlanmış ölçümleri ayrı kaydetme
-- Kuru ortam kayıtları için ayrı kişisel istatistik ve gelişim grafiği
-- Nefes alma dürtüsünü yalnızca öznel bir not olarak kaydetme (CO₂ ölçümü değildir)
-- Ortam, seans değerlendirmesi ve not geçmişi
-- Kuru ortam güvenlik hatırlatmaları ve freediving eğitim bilgileri
-- Kayıtlar tarayıcının `localStorage` alanında tutulur; sunucuya gönderilmez.
-- Önceki kayıtlar korunur; eski kayıtlar kuru ortam olarak sınıflandırılmaz.
+## Güvenlik sınırları
+Uygulama nefes tutma zamanlayıcısı, egzersiz protokolü, süre hedefi veya CO₂ tolerans tablosu içermez. Kuru ortamda nefes tutma da hipoksik bayılma, düşme ve yaralanma riski taşır. Uyurken, uykuya dalarken, yatakta uyku sırasında, ayakta, araç kullanırken, banyoda veya suda tek başına nefes tutma denemesi yapılmamalıdır. Maksimum süre denemeleri ve hiperventilasyon kullanılmamalıdır. Baş dönmesi, görme değişikliği, uyuşma veya sersemlikte hemen bırakıp yardım isteyin. Kuru ortam çalışmaları için nitelikli freediving eğitmeninden kişisel güvenlik değerlendirmesi alın. Su içi çalışmalar uygun eğitim ve yetkin buddy gözetimi gerektirir.
 
-## Güvenlik
-
-Kuru ortamda nefes tutma da hipoksik bayılma, düşme ve yaralanma riski taşır. Uyurken, uykuya dalarken, yatakta uyku sırasında, ayakta, araç kullanırken, banyoda veya suda tek başına nefes tutma denemesi yapılmamalıdır. Maksimum süre denemeleri, süre hedefleri, CO₂ tabloları veya hiperventilasyon kullanılmamalıdır. Baş dönmesi, görme değişikliği, uyuşma veya sersemlikte hemen bırakıp yardım isteyin. Kuru ortam çalışmaları için de nitelikli freediving eğitmeninden kişisel güvenlik değerlendirmesi alın. Su içi çalışmalar uygun eğitim ve yetkin buddy gözetimi gerektirir.
-
-Uygulama bir nefes tutma zamanlayıcısı, antrenman reçetesi, CO₂ ölçüm cihazı veya tıbbi cihaz değildir. Nefes alma dürtüsü alanı yalnızca sonradan girilen öznel bir nottur.
+O2 bir tıbbi cihaz, fizyolojik ölçüm cihazı veya kişisel antrenman reçetesi değildir. CO₂ seviyesi ya da toleransı ölçtüğünü iddia etmez.
 
 ## Yayın
-
-GitHub Pages için statik HTML olarak hazırlanmıştır. `main` dalındaki `index.html` yayınlanır. Özel alan adı `CNAME` dosyasında tanımlıdır.
+GitHub Pages için statik HTML olarak hazırlanmıştır. main dalındaki index.html yayınlanır.
