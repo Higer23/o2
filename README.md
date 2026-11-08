@@ -1,19 +1,19 @@
-# O2 — Dry Apnea Lab
+# O2 — Dry Preparation
 
-O2, kuru ortam freediving fizyolojisini öğrenmek, güvenlik farkındalığını geliştirmek ve eğitim oturumlarını kaydetmek için hazırlanmış etkileşimli statik bir web uygulamasıdır.
+O2, freediving öncesinde nefes tutma içermeyen kuru kondisyon, mobilite, hafif aerobik aktivite ve toparlanma kayıtlarını tutan statik bir web uygulamasıdır.
 
 ## Özellikler
-- Etkileşimli CO₂, O₂, hipoksi ve güvenli eğitim modülleri
-- Kuru ortam için güvenlik kontrol listesi
-- Tamamlanan eğitim modüllerinin işaretlenmesi
-- Eğitim oturumu notları ve geçmişi
-- Önceki sürümde kaydedilmiş kuru ortam ölçümlerinin kişisel panelde görüntülenmesi
-- Veriler tarayıcının localStorage alanında tutulur; sunucuya gönderilmez.
+- Aktivite modu seçimi: mobilite/esneklik, kuru kondisyon/kuvvet, hafif aerobik aktivite, toparlanma
+- Tamamlanan aktivite süresi ve algılanan efor kaydı
+- Son 7 gün günlük aktivite dakikaları grafiği
+- Toplam aktivite, süre ve haftalık ortalama
+- Aktivite geçmişi
+- Veriler tarayıcı localStorage alanında saklanır.
 
-## Güvenlik sınırları
-Uygulama nefes tutma zamanlayıcısı, egzersiz protokolü, süre hedefi veya CO₂ tolerans tablosu içermez. Kuru ortamda nefes tutma da hipoksik bayılma, düşme ve yaralanma riski taşır. Uyurken, uykuya dalarken, yatakta uyku sırasında, ayakta, araç kullanırken, banyoda veya suda tek başına nefes tutma denemesi yapılmamalıdır. Maksimum süre denemeleri ve hiperventilasyon kullanılmamalıdır. Baş dönmesi, görme değişikliği, uyuşma veya sersemlikte hemen bırakıp yardım isteyin. Kuru ortam çalışmaları için nitelikli freediving eğitmeninden kişisel güvenlik değerlendirmesi alın. Su içi çalışmalar uygun eğitim ve yetkin buddy gözetimi gerektirir.
+## Güvenlik
+Uygulama nefes tutma sayacı, boş/dolu akciğer modu, maksimum süre testi, CO₂ tablosu veya nefes tutma süresini artırmaya yönelik protokol içermez. Kuru ortamda nefes tutma hipoksik bayılma ve yaralanma riski taşır. Hiperventilasyon yapılmamalı; uyurken, yatakta, ayakta, araçta, banyoda veya suda tek başına nefes tutma denenmemelidir. Freediving nefes tutma çalışmaları nitelikli eğitmen ve uygun aktif gözetim gerektirir.
 
-O2 bir tıbbi cihaz, fizyolojik ölçüm cihazı veya kişisel antrenman reçetesi değildir. CO₂ seviyesi ya da toleransı ölçtüğünü iddia etmez.
+O2 tıbbi cihaz veya kişisel antrenman reçetesi değildir.
 
 ## Yayın
-GitHub Pages için statik HTML olarak hazırlanmıştır. main dalındaki index.html yayınlanır.
+GitHub Pages için statik HTML. main dalındaki index.html yayınlanır.
